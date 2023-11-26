@@ -9,16 +9,16 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 ### Hedeflerimiz:
 
 ### Silindir
-* Circle isimli bir sınıf yazınız. ```radius``` isimli bir tane sınıf değişkenine sahip olmalı. radius değişkeninin tipi ne olmalı ?
-* Sınıfın bir tane ```constructor``` metodu olmalı ve içerisinde radius değişkeninin değerini değiştirebilmeli. Radius bir şekilde 0'dan küçük belirtilirse radius 0'a eşitlenmeli. 
-* Circle sınıfının ```getRadius``` isimli bir metodu olmalı ve radius değerinin dönmeli.
-* Circle sınıfının ```getArea``` isimli bir metodu olmalı ve radius * radius * Math.PI değerini dönmeli.
+* tr.workintech.cylinder.Circle isimli bir sınıf yazınız. ```tr.workintech.cylinder.Circle``` isimli bir tane sınıf değişkenine sahip olmalı. tr.workintech.cylinder.Circle değişkeninin tipi ne olmalı ?
+* Sınıfın bir tane ```constructor``` metodu olmalı ve içerisinde tr.workintech.cylinder.Circle değişkeninin değerini değiştirebilmeli. Radius bir şekilde 0'dan küçük belirtilirse tr.workintech.cylinder.Circle 0'a eşitlenmeli. 
+* tr.workintech.cylinder.Circle sınıfının ```getRadius``` isimli bir metodu olmalı ve tr.workintech.cylinder.Circle değerinin dönmeli.
+* tr.workintech.cylinder.Circle sınıfının ```getArea``` isimli bir metodu olmalı ve tr.workintech.cylinder.Circle * tr.workintech.cylinder.Circle * Math.PI değerini dönmeli.
 
-* Cylinder isminde bir sınıf yazınız. Circle sınıfı ile arasında kalıtım ilişkisi kurmalısınız.
-* Cylinder sınıfının bir tane sınıf değişkeni olmalı ve adı ```height``` olmalı. height değişkeninin tipi ne olmalı ?
-* Cylinder sınıfının bir tane constructor methodu olmalı ve 2 parametre almalı. height parametresi 0'dan küçükse, height 0'a eşitlenmeli.
-* Cylinder sınıfının ```getHeight``` isimli bir metodu olmalı ve height değerini return etmeli.
-* Cylinder sınıfının ```getVolume``` isimli bir metodu olmalı hacmi hesaplamalı. Hacmi hesaplamak için ```getArea``` ile height değişkenini çarpmalı.
+* tr.workintech.cylinder.Cylinder isminde bir sınıf yazınız. tr.workintech.cylinder.Circle sınıfı ile arasında kalıtım ilişkisi kurmalısınız.
+* tr.workintech.cylinder.Cylinder sınıfının bir tane sınıf değişkeni olmalı ve adı ```height``` olmalı. height değişkeninin tipi ne olmalı ?
+* tr.workintech.cylinder.Cylinder sınıfının bir tane constructor methodu olmalı ve 2 parametre almalı. height parametresi 0'dan küçükse, height 0'a eşitlenmeli.
+* tr.workintech.cylinder.Cylinder sınıfının ```getHeight``` isimli bir metodu olmalı ve height değerini return etmeli.
+* tr.workintech.cylinder.Cylinder sınıfının ```getVolume``` isimli bir metodu olmalı hacmi hesaplamalı. Hacmi hesaplamak için ```getArea``` ile height değişkenini çarpmalı.
 
 ### Havuzun Alanını Hesaplama
 
@@ -56,15 +56,15 @@ Uygulamada ```main``` metodu içerisinde INPUT kısmındaki kod blokları çağ�
 ### Silindir için
 INPUT
 
-Circle circle = new Circle(3.75);
+tr.workintech.cylinder.Circle circle = new tr.workintech.cylinder.Circle(3.75);
 
-System.out.println("circle.radius= " + circle.getRadius());
+System.out.println("circle.tr.workintech.cylinder.Circle= " + circle.getRadius());
 
 System.out.println("circle.area= " + circle.getArea());
 
-Cylinder cylinder = new Cylinder(5.55, 7.25);
+tr.workintech.cylinder.Cylinder cylinder = new tr.workintech.cylinder.Cylinder(5.55, 7.25);
 
-System.out.println("cylinder.radius= " + cylinder.getRadius());
+System.out.println("cylinder.tr.workintech.cylinder.Circle= " + cylinder.getRadius());
 
 System.out.println("cylinder.height= " + cylinder.getHeight());
 
@@ -75,11 +75,11 @@ System.out.println("cylinder.volume= " + cylinder.getVolume());
 
 OUTPUT
 
-circle.radius= 3.75
+circle.tr.workintech.cylinder.Circle= 3.75
 
 circle.area= 44.178646691106465
 
-cylinder.radius= 5.55
+cylinder.tr.workintech.cylinder.Circle= 5.55
 
 cylinder.height= 7.25
 
